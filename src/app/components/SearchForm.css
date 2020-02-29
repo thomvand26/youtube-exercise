@@ -1,0 +1,22 @@
+.searchForm {
+    margin-top: 40px;
+    width: fit-content;
+    margin: 0 auto;
+    border: solid 2px rgb(44, 44, 44);
+}
+
+.searchForm__input, .searchForm__button {
+    box-sizing: content-box;
+    height: 40px;
+    border: none;
+}
+
+.searchForm__input {
+    width: 400px;
+}
+
+.searchForm__button {
+    width: 100px;
+    background-color: rgb(44, 44, 44);
+    color: rgb(211, 211, 211);
+}

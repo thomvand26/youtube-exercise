@@ -1,0 +1,7 @@
+.videoPlayer {
+    margin-top: 80px;
+}
+
+.videoPlayer > iframe {
+    border: none;
+}
