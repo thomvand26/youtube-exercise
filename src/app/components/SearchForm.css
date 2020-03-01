@@ -9,14 +9,23 @@
     box-sizing: content-box;
     height: 40px;
     border: none;
+    font-size: 20px;
 }
 
 .searchForm__input {
     width: 400px;
+    background-color: rgba(44, 44, 44, 0.1);
+    padding: 0 16px;
 }
 
 .searchForm__button {
     width: 100px;
     background-color: rgb(44, 44, 44);
-    color: rgb(211, 211, 211);
+    /* color: rgb(211, 211, 211); */
+    color: white;
+    font-weight: bold;
+}
+
+.searchForm__button:hover {
+    cursor: pointer;
 }

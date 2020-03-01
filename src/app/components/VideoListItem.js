@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const VideoListItem = ({videoImg, videoTitle, videoDescription, videoClicked}) => {
     return (
-        <Link to="/detail">
+        <Link to="/detail" className="videoList__itemLink">
             <li className="videoList__item" onClick={ev => videoClicked()}>
                 <div className="videoList__left">
                     <img className="videoList__itemThumbnail" src={videoImg} />

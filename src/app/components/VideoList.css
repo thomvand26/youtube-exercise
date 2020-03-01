@@ -7,12 +7,23 @@
     display: flex;
     margin: 20px 0;
     height: 180px;
-    background-color: rgb(236, 236, 236);
+    background-color: rgb(44, 44, 44);
+    /* color: rgb(211, 211, 211); */
+    color: rgb(211, 211, 211);
+    transition: transform 50ms ease-in-out;
 }
 
 .videoList__item:hover {
     cursor: pointer;
+    background-color: rgba(44, 44, 44, 0.9);
+    box-shadow: 0 6px 20px rgba(128, 128, 128, 0.349);
+    transform: scale(1.01);
 }
+
+.videoList__itemLink {
+    color: black;
+    text-decoration: none;
+}    
 
 .videoList__itemTitle, .videoList__itemDescription {
     text-align: left;
